@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CGPA_Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/cgpa logo.jpeg">
+    <style>
+      a{
+        text-decoration: none;
+      }
+      .centered-div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #f0f0f0;
+        width: 300px; 
+        height: 170px;
+        border: 2px solid #333;
+        padding: 20px; 
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .divElems {
+        padding: 10px;
+        width: 230px;
+        margin-left: 10px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: transform 0.3s;
+      }
+      .divElems:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+      }
+      @media (max-width: 768px) {
+        .centered-div {
+          width: 90%;
+          height: auto;
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="centered-div">
+      <p>
+        <a href="cgpaCalci.html">
+        <button class="divElems">CGPA_Calculator</button>
+        </a>
+      </p>
+      <p>
+        <a href="gpaCalci.html">
+          <button class="divElems">GPA_Calculator</button>
+        </a>
+      </p>
+    </div>
+  </body>
+</html>
